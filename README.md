@@ -1,6 +1,8 @@
-# securbankdemo
+# SecurBank Service
 
-Welcome to my Adobe I/O Application!
+Simple Back End moocks for demos.
+Try [https://20092-securbankdemo-stage.adobeio-static.net/api/v1/web/dx-excshell-1/forex?baseCurrency=AUD](https://20092-securbankdemo-stage.adobeio-static.net/api/v1/web/dx-excshell-1/forex?baseCurrency=AUD)
+
 
 ## Setup
 
