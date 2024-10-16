@@ -39,14 +39,14 @@ function getCountryName(code) {
           countryInfo.currencies = [
             {"currencyTitle":"Australian Dollar","currencyCode":"AUD","forex":"1.485"},
             {"currencyTitle":"Canadian Dollar","currencyCode":"CAD","forex":"1.317"},
-            {"currencyTitle":"Great British Pound","currencyCode":"GBP","forex":"0.766"}];
+            {"currencyTitle":"Pound Sterling","currencyCode":"GBP","forex":"0.766"}];
             break;
       case 'CAD':
           countryInfo.title = 'Canadian Dollar';
           countryInfo.currencies = [
             {"currencyTitle":"Australian Dollar","currencyCode":"AUD","forex":"1.128"},
             {"currencyTitle":"US Dollar","currencyCode":"USD","forex":"0.759"},
-            {"currencyTitle":"Great British Pound","currencyCode":"GBP","forex":"0.585"}];
+            {"currencyTitle":"ound Sterling","currencyCode":"GBP","forex":"0.585"}];
           break;
       case 'GBP':
           countryInfo.title = 'Great British Pound';
@@ -59,9 +59,17 @@ function getCountryName(code) {
           countryInfo.title = 'Australian Dollar';
           countryInfo.currencies = [
             {"currencyTitle":"Canadian Dollar","currencyCode":"CAD","forex":"0.92"},
-            {"currencyTitle":"Great British Pound","currencyCode":"GBP","forex":"0.51"},
+            {"currencyTitle":"Pound Sterling","currencyCode":"GBP","forex":"0.51"},
             {"currencyTitle":"US Dollar","currencyCode":"USD","forex":"0.67"},
             {"currencyTitle":"Euro","currencyCode":"EUR","forex":"0.61"}];
+          break;
+      case 'EUR':
+          countryInfo.title = 'Euro';
+          countryInfo.currencies = [
+            {"currencyTitle":"Canadian Dollar","currencyCode":"CAD","forex":"0.92"},
+            {"currencyTitle":"Pound Sterling","currencyCode":"GBP","forex":"0.51"},
+            {"currencyTitle":"US Dollar","currencyCode":"USD","forex":"0.67"},
+            {"currencyTitle":"Australian Dollar","currencyCode":"AUD","forex":"0.61"}];
           break;
       default:
         countryInfo.title = null;
